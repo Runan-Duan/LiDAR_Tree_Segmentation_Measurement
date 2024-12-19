@@ -1,0 +1,19 @@
+# pip install -r requirements.txt
+# python3.11 environment
+
+
+# Point Cloud Processing
+numpy>=1.26.4
+open3d 
+pandas
+matplotlib
+numpy
+laspy
+scikit-learn
+scipy
+scikit-image
+
+# GPU acceleration
+torch # use pytorch move to GPU
+cupy # accelerate operations such as clustering, matrix transformations, and distance calculations.
+cuml-cuda11x # accelerate clustering techniques
